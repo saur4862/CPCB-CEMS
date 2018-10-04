@@ -7,14 +7,58 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		090E45CC21649E14009ED9FF /* UploadDataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 090E45CB21649E14009ED9FF /* UploadDataViewController.swift */; };
+		091443B32163628B003F4744 /* CategoryDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 091443B22163628B003F4744 /* CategoryDetailsViewController.swift */; };
+		091443B5216364C8003F4744 /* CategoryDetailTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 091443B4216364C8003F4744 /* CategoryDetailTableViewCell.xib */; };
+		091443B7216364DD003F4744 /* CategoryDetailTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 091443B6216364DD003F4744 /* CategoryDetailTableViewCell.swift */; };
+		091443B921636797003F4744 /* CategoryDetailsHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 091443B821636797003F4744 /* CategoryDetailsHeaderView.xib */; };
+		091443BB21636833003F4744 /* CategoryDetailsHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 091443BA21636833003F4744 /* CategoryDetailsHeaderView.swift */; };
+		091443BD21637E84003F4744 /* VerifyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 091443BC21637E84003F4744 /* VerifyViewController.swift */; };
+		094736872162831B000EEC34 /* ProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094736862162831B000EEC34 /* ProgressView.swift */; };
+		094736892162835E000EEC34 /* BaseService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094736882162835E000EEC34 /* BaseService.swift */; };
+		0947368B21628448000EEC34 /* ApiService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0947368A21628448000EEC34 /* ApiService.swift */; };
+		0947368F2162854D000EEC34 /* NavigationView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0947368E2162854D000EEC34 /* NavigationView.xib */; };
+		0947369121628561000EEC34 /* NavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0947369021628561000EEC34 /* NavigationView.swift */; };
+		0947369321628677000EEC34 /* DetailTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0947369221628677000EEC34 /* DetailTableViewCell.xib */; };
+		094736952162868C000EEC34 /* DetailTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094736942162868C000EEC34 /* DetailTableViewCell.swift */; };
+		0947369721628D2E000EEC34 /* StatisticsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0947369621628D2E000EEC34 /* StatisticsViewController.swift */; };
+		0947369921628D3D000EEC34 /* CategoriesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0947369821628D3D000EEC34 /* CategoriesViewController.swift */; };
+		0947369B21628D5C000EEC34 /* ChartsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0947369A21628D5C000EEC34 /* ChartsTableViewCell.xib */; };
+		0947369D21628D6E000EEC34 /* ChartsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0947369C21628D6E000EEC34 /* ChartsTableViewCell.swift */; };
+		0947369F2162935A000EEC34 /* PieModal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0947369E2162935A000EEC34 /* PieModal.swift */; };
 		09D0E37C216281280074C843 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09D0E37B216281280074C843 /* AppDelegate.swift */; };
 		09D0E37E216281280074C843 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09D0E37D216281280074C843 /* ViewController.swift */; };
 		09D0E381216281290074C843 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09D0E37F216281290074C843 /* Main.storyboard */; };
 		09D0E383216281370074C843 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 09D0E382216281370074C843 /* Assets.xcassets */; };
 		09D0E386216281370074C843 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09D0E384216281370074C843 /* LaunchScreen.storyboard */; };
+		09FB76192162B8C60071EA89 /* ExceeDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09FB76182162B8C50071EA89 /* ExceeDetailsViewController.swift */; };
+		09FB761B2162B9430071EA89 /* ExceeDetailsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 09FB761A2162B9430071EA89 /* ExceeDetailsTableViewCell.xib */; };
+		09FB761D2162B95A0071EA89 /* ExceeDetailsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09FB761C2162B95A0071EA89 /* ExceeDetailsTableViewCell.swift */; };
+		09FB761F2162CE630071EA89 /* CategoryTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 09FB761E2162CE630071EA89 /* CategoryTableViewCell.xib */; };
+		09FB76212162CE700071EA89 /* CategoryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09FB76202162CE700071EA89 /* CategoryTableViewCell.swift */; };
+		53EAD472D3560D99A362D9CA /* Pods_CPCB_CEMS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F0FA9E3CAA1AE5EB032E4F7 /* Pods_CPCB_CEMS.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		090E45CB21649E14009ED9FF /* UploadDataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadDataViewController.swift; sourceTree = "<group>"; };
+		091443B22163628B003F4744 /* CategoryDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryDetailsViewController.swift; sourceTree = "<group>"; };
+		091443B4216364C8003F4744 /* CategoryDetailTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CategoryDetailTableViewCell.xib; sourceTree = "<group>"; };
+		091443B6216364DD003F4744 /* CategoryDetailTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryDetailTableViewCell.swift; sourceTree = "<group>"; };
+		091443B821636797003F4744 /* CategoryDetailsHeaderView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CategoryDetailsHeaderView.xib; sourceTree = "<group>"; };
+		091443BA21636833003F4744 /* CategoryDetailsHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryDetailsHeaderView.swift; sourceTree = "<group>"; };
+		091443BC21637E84003F4744 /* VerifyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerifyViewController.swift; sourceTree = "<group>"; };
+		094736862162831B000EEC34 /* ProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressView.swift; sourceTree = "<group>"; };
+		094736882162835E000EEC34 /* BaseService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseService.swift; sourceTree = "<group>"; };
+		0947368A21628448000EEC34 /* ApiService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiService.swift; sourceTree = "<group>"; };
+		0947368E2162854D000EEC34 /* NavigationView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NavigationView.xib; sourceTree = "<group>"; };
+		0947369021628561000EEC34 /* NavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationView.swift; sourceTree = "<group>"; };
+		0947369221628677000EEC34 /* DetailTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DetailTableViewCell.xib; sourceTree = "<group>"; };
+		094736942162868C000EEC34 /* DetailTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailTableViewCell.swift; sourceTree = "<group>"; };
+		0947369621628D2E000EEC34 /* StatisticsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticsViewController.swift; sourceTree = "<group>"; };
+		0947369821628D3D000EEC34 /* CategoriesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesViewController.swift; sourceTree = "<group>"; };
+		0947369A21628D5C000EEC34 /* ChartsTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ChartsTableViewCell.xib; sourceTree = "<group>"; };
+		0947369C21628D6E000EEC34 /* ChartsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartsTableViewCell.swift; sourceTree = "<group>"; };
+		0947369E2162935A000EEC34 /* PieModal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PieModal.swift; sourceTree = "<group>"; };
 		09D0E378216281280074C843 /* CPCB CEMS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CPCB CEMS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		09D0E37B216281280074C843 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		09D0E37D216281280074C843 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +66,14 @@
 		09D0E382216281370074C843 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		09D0E385216281370074C843 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		09D0E387216281370074C843 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		09FB76182162B8C50071EA89 /* ExceeDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExceeDetailsViewController.swift; sourceTree = "<group>"; };
+		09FB761A2162B9430071EA89 /* ExceeDetailsTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ExceeDetailsTableViewCell.xib; sourceTree = "<group>"; };
+		09FB761C2162B95A0071EA89 /* ExceeDetailsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExceeDetailsTableViewCell.swift; sourceTree = "<group>"; };
+		09FB761E2162CE630071EA89 /* CategoryTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CategoryTableViewCell.xib; sourceTree = "<group>"; };
+		09FB76202162CE700071EA89 /* CategoryTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryTableViewCell.swift; sourceTree = "<group>"; };
+		7960673DD1534586420FDB0E /* Pods-CPCB CEMS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CPCB CEMS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CPCB CEMS/Pods-CPCB CEMS.debug.xcconfig"; sourceTree = "<group>"; };
+		7F0FA9E3CAA1AE5EB032E4F7 /* Pods_CPCB_CEMS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CPCB_CEMS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E02F2072D7B23E4715781440 /* Pods-CPCB CEMS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CPCB CEMS.release.xcconfig"; path = "Pods/Target Support Files/Pods-CPCB CEMS/Pods-CPCB CEMS.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +81,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				53EAD472D3560D99A362D9CA /* Pods_CPCB_CEMS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +93,8 @@
 			children = (
 				09D0E37A216281280074C843 /* CPCB CEMS */,
 				09D0E379216281280074C843 /* Products */,
+				C34F6F8717DF7DDC134DFE5A /* Pods */,
+				960954176D83F1C7D2B00170 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,12 +111,53 @@
 			children = (
 				09D0E37B216281280074C843 /* AppDelegate.swift */,
 				09D0E37D216281280074C843 /* ViewController.swift */,
+				0947369621628D2E000EEC34 /* StatisticsViewController.swift */,
+				0947369821628D3D000EEC34 /* CategoriesViewController.swift */,
+				091443B22163628B003F4744 /* CategoryDetailsViewController.swift */,
+				09FB76182162B8C50071EA89 /* ExceeDetailsViewController.swift */,
+				091443BC21637E84003F4744 /* VerifyViewController.swift */,
+				090E45CB21649E14009ED9FF /* UploadDataViewController.swift */,
 				09D0E37F216281290074C843 /* Main.storyboard */,
+				094736862162831B000EEC34 /* ProgressView.swift */,
+				094736882162835E000EEC34 /* BaseService.swift */,
+				0947368A21628448000EEC34 /* ApiService.swift */,
+				09FB761E2162CE630071EA89 /* CategoryTableViewCell.xib */,
+				09FB76202162CE700071EA89 /* CategoryTableViewCell.swift */,
+				09FB761A2162B9430071EA89 /* ExceeDetailsTableViewCell.xib */,
+				09FB761C2162B95A0071EA89 /* ExceeDetailsTableViewCell.swift */,
+				0947369E2162935A000EEC34 /* PieModal.swift */,
+				091443B4216364C8003F4744 /* CategoryDetailTableViewCell.xib */,
+				091443B6216364DD003F4744 /* CategoryDetailTableViewCell.swift */,
+				091443B821636797003F4744 /* CategoryDetailsHeaderView.xib */,
+				091443BA21636833003F4744 /* CategoryDetailsHeaderView.swift */,
+				0947368E2162854D000EEC34 /* NavigationView.xib */,
+				0947369021628561000EEC34 /* NavigationView.swift */,
+				0947369221628677000EEC34 /* DetailTableViewCell.xib */,
+				0947369A21628D5C000EEC34 /* ChartsTableViewCell.xib */,
+				0947369C21628D6E000EEC34 /* ChartsTableViewCell.swift */,
+				094736942162868C000EEC34 /* DetailTableViewCell.swift */,
 				09D0E382216281370074C843 /* Assets.xcassets */,
 				09D0E384216281370074C843 /* LaunchScreen.storyboard */,
 				09D0E387216281370074C843 /* Info.plist */,
 			);
 			path = "CPCB CEMS";
+			sourceTree = "<group>";
+		};
+		960954176D83F1C7D2B00170 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7F0FA9E3CAA1AE5EB032E4F7 /* Pods_CPCB_CEMS.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C34F6F8717DF7DDC134DFE5A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7960673DD1534586420FDB0E /* Pods-CPCB CEMS.debug.xcconfig */,
+				E02F2072D7B23E4715781440 /* Pods-CPCB CEMS.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +167,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 09D0E38A216281370074C843 /* Build configuration list for PBXNativeTarget "CPCB CEMS" */;
 			buildPhases = (
+				5F551E2B94BDAD2FB9203674 /* [CP] Check Pods Manifest.lock */,
 				09D0E374216281280074C843 /* Sources */,
 				09D0E375216281280074C843 /* Frameworks */,
 				09D0E376216281280074C843 /* Resources */,
+				C8FF1CC5A5D7BCBCA5599DD9 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -122,21 +220,86 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				091443B921636797003F4744 /* CategoryDetailsHeaderView.xib in Resources */,
+				09FB761B2162B9430071EA89 /* ExceeDetailsTableViewCell.xib in Resources */,
 				09D0E386216281370074C843 /* LaunchScreen.storyboard in Resources */,
+				0947369321628677000EEC34 /* DetailTableViewCell.xib in Resources */,
+				09FB761F2162CE630071EA89 /* CategoryTableViewCell.xib in Resources */,
+				0947369B21628D5C000EEC34 /* ChartsTableViewCell.xib in Resources */,
 				09D0E383216281370074C843 /* Assets.xcassets in Resources */,
+				0947368F2162854D000EEC34 /* NavigationView.xib in Resources */,
+				091443B5216364C8003F4744 /* CategoryDetailTableViewCell.xib in Resources */,
 				09D0E381216281290074C843 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		5F551E2B94BDAD2FB9203674 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CPCB CEMS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C8FF1CC5A5D7BCBCA5599DD9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-CPCB CEMS/Pods-CPCB CEMS-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Charts/Charts.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Charts.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CPCB CEMS/Pods-CPCB CEMS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		09D0E374216281280074C843 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				090E45CC21649E14009ED9FF /* UploadDataViewController.swift in Sources */,
+				091443B7216364DD003F4744 /* CategoryDetailTableViewCell.swift in Sources */,
+				09FB76192162B8C60071EA89 /* ExceeDetailsViewController.swift in Sources */,
+				0947369D21628D6E000EEC34 /* ChartsTableViewCell.swift in Sources */,
+				094736892162835E000EEC34 /* BaseService.swift in Sources */,
+				0947368B21628448000EEC34 /* ApiService.swift in Sources */,
+				0947369921628D3D000EEC34 /* CategoriesViewController.swift in Sources */,
+				094736952162868C000EEC34 /* DetailTableViewCell.swift in Sources */,
+				0947369721628D2E000EEC34 /* StatisticsViewController.swift in Sources */,
 				09D0E37E216281280074C843 /* ViewController.swift in Sources */,
+				091443BD21637E84003F4744 /* VerifyViewController.swift in Sources */,
+				094736872162831B000EEC34 /* ProgressView.swift in Sources */,
+				0947369121628561000EEC34 /* NavigationView.swift in Sources */,
+				0947369F2162935A000EEC34 /* PieModal.swift in Sources */,
+				09FB76212162CE700071EA89 /* CategoryTableViewCell.swift in Sources */,
+				09FB761D2162B95A0071EA89 /* ExceeDetailsTableViewCell.swift in Sources */,
+				091443B32163628B003F4744 /* CategoryDetailsViewController.swift in Sources */,
 				09D0E37C216281280074C843 /* AppDelegate.swift in Sources */,
+				091443BB21636833003F4744 /* CategoryDetailsHeaderView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,37 +441,49 @@
 		};
 		09D0E38B216281370074C843 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7960673DD1534586420FDB0E /* Pods-CPCB CEMS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = WAGXRCHGD8;
+				DEVELOPMENT_TEAM = 87N3QBMEY7;
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = "CPCB CEMS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.saurabh.app.CPCB-CEMS";
+				PRODUCT_BUNDLE_IDENTIFIER = com.saurabh.app.CPCBCEMS;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		09D0E38C216281370074C843 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E02F2072D7B23E4715781440 /* Pods-CPCB CEMS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = WAGXRCHGD8;
+				DEVELOPMENT_TEAM = 87N3QBMEY7;
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = "CPCB CEMS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.saurabh.app.CPCB-CEMS";
+				PRODUCT_BUNDLE_IDENTIFIER = com.saurabh.app.CPCBCEMS;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
